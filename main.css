@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to left, rgba(33, 253, 66, 0.651), rgb(233, 21, 253));
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#lista{
+    background-color: rgba(255, 255, 255, 0.404);
+    margin: 25px 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+form input{
+    background-color: transparent;
+    border-radius: 20px;
+    width: 200px;
+}
+
+input::placeholder{
+    color: black;
+    padding-left: 45px;
+}
+
+input:focus{
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+.risco{
+    text-decoration: line-through;
+}
